@@ -30,11 +30,11 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 600px;
    min-height: 100px;
    width: 100%;
 
-    background: #161415 url(../images/banner_new.png) no-repeat top center;
+   background: #161415 url(../images/banner_dicova_2.png) no-repeat top center;
 
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -60,7 +60,7 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
 /*   font: 20px/0.8em 'opensans-bold', serif;*/
-   font: 20px/0.8em "montserrat-bold", serif;
+   font: 80px/2.8em "montserrat-bold", serif;
    text-rendering: optimizeLegibility;
    color: #11ABB0;
    letter-spacing: 8px;
