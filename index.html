@@ -132,18 +132,14 @@ function showHide(shID) {
 
             <h1>About</h1>
             <p class="drop-cap">
-            The COVID-19 pandemic has resulted in more than 200 million infections, and more than 4 million casualties. Although the case-to--fatality ratio (CFR) is less than 1/5th of that in the influenza pandemic in 1928, in the current age of science and technology, these figures are worrying. The pathogenesis of COVID-19 is increasingly suggesting impairments in the respiratory system. In this light, it is natural to ask - Can breathing, cough, and speech sound samples serve as acoustic biomarkers of COVID-19? If yes, an acoustics based COVID-19 diagnosis can provide a fast, contactless and inexpensive testing scheme, with potential to supplement the existing molecular testing methods, such as RT-PCR and RAT. The DiCOVA Challenge Series is an exploration of ideas to find answers to this question.
-             </p>
+                The COVID-19 pandemic has resulted in more than 200 million infections, and more than 4 million casualties. Although the case-to--fatality ratio (CFR) is less than 1/5th of that in the influenza pandemic in 1928, in the current age of science and technology, these figures are worrying. The pathogenesis of COVID-19 is increasingly suggesting impairments in the respiratory system. In this light, it is natural to ask - <b>Can breathing, cough, and speech sound samples serve as acoustic biomarkers of COVID-19?</b> If yes, an acoustics based COVID-19 diagnosis can provide a fast, contactless and inexpensive testing scheme, with potential to supplement the existing molecular testing methods, such as RT-PCR and RAT. The DiCOVA Challenge Series is an exploration of ideas to find answers to this question.
+            <br>
+            Considering the immediate societal relevance of a technology driven point-of-care-test (POCT) for COVID-19, the DiCOVA Challenge has three aims. <b>Release</b> a curated dataset of sound samples (breathing, cough, and speech) drawn from individuals with and without COVID-19 during the time of recording. <b>Invite</b> researchers from around the globe to search for acoustic biomarkers in this dataset. <b>Evaluate</b> the findings of each group using a blind test set, and present these in the ICASSP Special Session.
+            </p>
             <hr>
-            Considering the immediate societal relevance of a technology driven point-of-care-test (POCT) for COVID-19, the DiCOVA Challenge aim to:
-            <ul class="lining" align="justify">
-                <li>a. <i>Release</i> a curated dataset of sound samples (breathing, cough, and speech) drawn from individuals with and without COVID-19 during the time of recording. 
-                <li>b. <i>Invite</i> researchers from around the globe to search for acoustic biomarkers in this dataset.</li>
-                <li>c. <i>Evaluate</i> the findings of each group using a blind test set, and present these in the ICASSP Special Session.</li>   
-             </ul>
-             The first DiCOVA Challenge was launched in Feb 04, 2021. It received an enthusiatic response from the research community across industry and acadmia. The challenge closed on Mar 23, 2021. A summary of results is provided at: <a href="https://dicova2021.github.io/">click here</a>. A Special Session is on schedule in the Interspeech 2021 to discuss the key ideas developed out of the challenge.
-
-             Currently, we are working out the logistics for DiCOVA-II, the second diagnosing COVID-19 using acoutsics challenge. We are preparing a Special Session proposal to the ICASSP 2022 Conference. We are hopefull this will warrant a  focussed and timely effort from researchers to work on this topic at the interface of acoustics, signal processing, and healthcare. Stay tuned.
+            The first DiCOVA Challenge was launched in Feb 04, 2021. It focussed on COVID-19 detection using cough sounds. The challenge received an enthusiatic response from the research community across industry and acadmia. The challenge closed on Mar 23, 2021. A summary of results is provided at: <a href="https://dicova2021.github.io/">click here</a>.
+            <hr>
+            Considering the excitement in the research community to contribute to this topic of societal importance, we are preparing for the launch of DiCOVA-II Challenge with the following updates. <b>Larger dataset</b> Over the past few months, the Coswara dataset has grown with more participants and with the balancing of the COVID and non-COVID categories. <b>Multi-modality</b> In addition to the cough sound samples used in the first DiCOVA challenge, recent research indicates the COVID-19 acoustic signature can be also extracted from breathing and speech sound samples. The second DiCOVA challenge will feature three sound categories (cough, speech and breathing) and four tracks (three individual categories and fusion). A leaderboard will be set to track the performance as done in the previous challenge. <b>Pre-training</b> Several open source and publicly available cough datasets have been published recently [3]. The challenge participants will be encouraged to use these datasets to pre-train their models for improved performance. We are preparing a Special Session proposal to the ICASSP 2022 Conference. We are hopefull this will warrant a focussed and timely effort from researchers to work on this topic at the interface of acoustics, signal processing, and healthcare. Stay tuned.
             </div>
             <hr>
          
@@ -248,12 +244,6 @@ function showHide(shID) {
              <dd> A. You are free to use any programming language you like. For system evaluation we will require you to submit the output decisions as a CSV/TXT file.
              </dd>
              
-             <dt><b>Q. How big is the Track-1 challenge dataset?</b>
-             </dt>
-             <br>
-             <dd> A. The train-val dataset for Track-1 contains a total of ~1.36 hrs of cough audio recordings from 75 COVID-19+ve subjects and 965 non-COVID-19 subjects. The compressed zip file size is 160 MB only. The audio data is compressed as .FLAC, sampling rate 44.1 kHz.
-             </dd>
-             
              <dt><b>Q. How do I get the DiCOVA audio dataset?</b>
              </dt>
              <br>
@@ -264,18 +254,6 @@ function showHide(shID) {
              </dt>
              <br>
              <dd> A. Yes but only after obtaining consent of the organizers.
-             </dd>
-             
-             <dt><b>Q. Are there other datasets I can use?</b>
-             </dt>
-             <br>
-             <dd> A. For both Track-1 and Track-2 you are not allowed to use <a href="https://github.com/iiscleap/Coswara-Data">Project Coswara</a> data. You can use any other data with proper citation of the source in the report and the Interspeech manuscript. 
-             </dd>
-             
-             <dt><b>Q. How do I submit my findings obtained by participating in this challenge to Interspeech 2021?</b>
-             </dt>
-             <br>
-             <dd> A. That's great! You can follow the Interspeech 2021 paper submission portal <a href="https://www.interspeech2021.org/call-for-papers">here</a>. Remember to select "Special Session DiCOVA" while uploading your paper there.
              </dd>
              
              <dt><b>Q. Can I obtain/use the DiCOVA audio data without participating in the challenge?</b>
@@ -294,7 +272,7 @@ function showHide(shID) {
       <div class="row add-bottom">
          <div class="twelve columns">
             <h1>Contact Us</h1>
-             You have more questions? Feel free to contact us at: x@y.com where x is dicova2021 and y is gmail.
+             You have more questions? Feel free to contact us at: x@y.com where x is dicovachallenge and y is gmail.
              
           <hr>
          </div>
