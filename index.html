@@ -107,7 +107,7 @@ function showHide(shID) {
       <div class="row banner">
 
          <div class="banner-text">
-             <br><h1>DiCOVA-II</h1><br><h4>The Diagnosing COVID-19 using Acoutsics Challenge-II </h4><br><h4>Coming Soon</h4><br>
+             <br><br><br><br>
              <hr />
             <ul class="social">
                <li><a href="https://twitter.com/coswara_iisc"><i class="fa fa-twitter"></i></a></li>
@@ -134,16 +134,18 @@ function showHide(shID) {
             <p class="drop-cap">
                 The COVID-19 pandemic has resulted in more than 200 million infections, and more than 4 million casualties. Although the case-to--fatality ratio (CFR) is less than 1/5th of that in the influenza pandemic in 1928, in the current age of science and technology, these figures are worrying. The pathogenesis of COVID-19 is increasingly suggesting impairments in the respiratory system. In this light, it is natural to ask - <b>Can breathing, cough, and speech sound samples serve as acoustic biomarkers of COVID-19?</b> If yes, an acoustics based COVID-19 diagnosis can provide a fast, contactless and inexpensive testing scheme, with potential to supplement the existing molecular testing methods, such as RT-PCR and RAT. The DiCOVA Challenge Series is an exploration of ideas to find answers to this question.
             <br>
-            Considering the immediate societal relevance of a technology driven point-of-care-test (POCT) for COVID-19, the DiCOVA Challenge has three aims. <b>Release</b> a curated dataset of sound samples (breathing, cough, and speech) drawn from individuals with and without COVID-19 during the time of recording. <b>Invite</b> researchers from around the globe to search for acoustic biomarkers in this dataset. <b>Evaluate</b> the findings of each group using a blind test set, and present these in the ICASSP Special Session.
+            Considering the immediate societal relevance of a technology driven point-of-care-test (POCT) for COVID-19, the DiCOVA Challenge has three aims. <b>Release</b> a curated dataset of sound samples (breathing, cough, and speech) drawn from individuals with and without COVID-19 during the time of recording. <b>Invite</b> researchers from around the globe to search for acoustic biomarkers in this dataset. <b>Evaluate</b> the findings of each group using a blind test set, and present a competitive leaderboard with global participation.
             </p>
             <hr>
-            The first DiCOVA Challenge was launched in Feb 04, 2021. It focussed on COVID-19 detection using cough sounds. The challenge received an enthusiatic response from the research community across industry and acadmia. The challenge closed on Mar 23, 2021. A summary of results is provided at: <a href="https://dicova2021.github.io/">click here</a>.
+            Building on the overwhelming response to the first DiCOVA Challenge, we are excited to launch this Second DiCOVA Challenge with the following updates. <b>Larger dataset</b> Over the past few months we have created an audio dataset with an improved ratio of COVID-19-to-non-COVID subjects. <b>Multi-modality</b> In addition to the cough sound samples used in the first DiCOVA challenge, recent research indicates the COVID-19 acoustic signature can be also extracted from breathing and speech sound samples. The second DiCOVA challenge will feature three sound categories (cough, speech and breathing) and four tracks (three individual categories and one fusion). A leaderboard will be set to track the performance as done in the previous challenge. <b>Pre-training Possibility</b> Several open source and publicly available cough datasets have been published recently. The challenge participants will be encouraged to use these datasets to pre-train their models for improved performance. We are hopeful, this will open up new horizons for focussed and timely effort from researchers on a topic at the interface of acoustics, signal processing, and healthcare.
+            <br> We look forward to your participation!
             <hr>
-            Considering the excitement in the research community to contribute to this topic of societal importance, we are preparing for the launch of DiCOVA-II Challenge with the following updates. <b>Larger dataset</b> Over the past few months, the Coswara dataset has grown with more participants and with the balancing of the COVID and non-COVID categories. <b>Multi-modality</b> In addition to the cough sound samples used in the first DiCOVA challenge, recent research indicates the COVID-19 acoustic signature can be also extracted from breathing and speech sound samples. The second DiCOVA challenge will feature three sound categories (cough, speech and breathing) and four tracks (three individual categories and fusion). A leaderboard will be set to track the performance as done in the previous challenge. <b>Pre-training Possibility</b> Several open source and publicly available cough datasets have been published recently [3]. The challenge participants will be encouraged to use these datasets to pre-train their models for improved performance. We are preparing a Special Session proposal to the ICASSP 2022 Conference. We are hopeful, this will open up horizon for focussed and timely effort from researchers to work on this topic at the interface of acoustics, signal processing, and healthcare. Stay tuned!
-            </div>
+            <ul class="lining" align="middle">
+             <li><h5><a href="./docs/Second_DiCOVA_challenge2022_flyer.pdf" style="color:#11ABB0">Click here</a> to download the flyer.</h5></li>
+            </ul>
             <hr>
-         
-         <br>
+            The first DiCOVA Challenge was launched on Feb 04, 2021. It focussed on COVID-19 detection using cough sounds only. The challenge received an enthusiatic response from the research community across industry and acadmia. The challenge closed on Mar 23, 2021. A summary of results is provided at: <a href="https://dicova2021.github.io/">click here</a> and <a href="https://arxiv.org/pdf/2106.10997.pdf">here</a>.
+          </div>
         </div> <!-- Row End-->
 </section>
     
@@ -156,9 +158,9 @@ function showHide(shID) {
             <h1>Timeline (Tentative) [23:59hrs AOE]</h1>
              
 		 <dl class="lining" align="justify">
-             <dt><b>Registrations Open :</dt></b>
+             <dt><b>Registrations Open :</b></dt>
 				        12th Aug 2021 &emsp;
-              <dt><b>Registrations Close:</dt></b>
+              <dt><b>Registrations Close:</b></dt>
                         25th Aug 2021<br>
              <dt><b>Data Release (Train and Dev):</b></dt>
             	       16th Aug 2021<br>
@@ -186,10 +188,27 @@ function showHide(shID) {
 
             <h1>Tracks</h1>
             <p class="drop-cap">
-                This special session features four tracks and you can participate in one or all both of them. The first three tracks focus on performance evaluation on breathing, cough, and speech sound categories, independently. The last track focusses on evaluation using a fusion strategy on these sound categories.
-                <br>
+                The challenge features four tracks. The first three tracks focus on single sound categories, and the fourth track is a fusion track. The task is to design a binary classifier for COVID-19 detection.
             </p>
-             More information coming soon!
+             <dl class="lining" align="justify">
+             <dt><b>Track-1:</b></dt> Breathing Sound Samples
+             <dt><b>Track-2:</b></dt> Cough Sound Samples
+             <dt><b>Track-3:</b></dt> Speech Sound Samples
+             <dt><b>Track-4:</b></dt> Fusion. Here participants can use any combination of above sound categories.
+     	      </dl>
+            <a href=""></a>
+            <br><a href="#" id="find1-show" class="showLink" onclick="showHide('find1');return false;">Click to know more</a>
+            <div id="find1" class="more">
+            <p><a href="#" id="find1-hide" class="hideLink" onclick="showHide('find1');return false;">Hide this content.</a></p>
+                <ul class="lining" align="justify">
+                 <li>b. You will be provided with a train/val audio dataset, train/val lists, and a baseline system to facilitate design of your own classifier models.</li>
+                 <li>c. Subsequently, a blind test set will be provided for model evaluation. You will submit your model performance scores on the blind set and the validation lists to a leaderboard interface (setup in Codalab) featuring performance of other teams on the same dataset.</li>
+                 <li>d. The performance metric for evaluation will be based on using the area under the receiver opertaing characteristic curve (AUC) and the specificity at 80% sensitivity.</li>
+                 <li>e. All participants will be required to submit a system description report (2-4 pages) to the organizers.</li>
+                 <li>f. You are free to use any other dataset but excluding the <a href="https://github.com/iiscleap/Coswara-Data">Project Coswara</a> dataset) for data augmentation.</li>
+                </ul>
+            <p><a href="#" id="find1-hide" class="hideLink" onclick="showHide('find1');return false;">Hide this content</a></p>
+          </div>
             <hr>
 
          </div>
@@ -198,11 +217,16 @@ function showHide(shID) {
 </section>
     
 <section id="register" style="padding: 10px 0 12px; background: #fff;">
-
       <div class="row add-bottom">
          <div class="twelve columns">
             <h1>Register</h1>
-             More information coming soon!
+             Thank you for your interest! Below are the three quick steps to register your participation and get started in the challenge.
+             
+             <dl class="lining" align="justify">
+                 <dt><b>Step-1:</b></dt><dd>One representative of the participating team fills the form at: <a href="https://forms.office.com/r/rkEduk9FzR">click here</a></dd>
+                 <dt><b>Step-2:</b></dt><dd>Subsequently, we will send a <a href="https://dicova2021.github.io/docs/Second_DiCOVA_Challenge_Terms_Conditions_Doc.pdf">Terms and Conditions</a> document to your e-mail address. Fill and e-mail it to us at dicova.challenge@gmail.com</dd>
+                 <dt><b>Step-3:</b></dt><dd>After a quick verification from our side, we will confirm your registration within 24 hrs and send you the dataset access details. That's it!</dd>
+     	      </dl>
           <hr>
          </div>
       </div>
@@ -274,7 +298,7 @@ function showHide(shID) {
       <div class="row add-bottom">
          <div class="twelve columns">
             <h1>Contact Us</h1>
-             You have more questions? Feel free to contact us at: x@y.com where x is dicovachallenge and y is gmail.
+             You have more questions? Feel free to contact us at: x@y.com where x is dicova.challenge and y is gmail.
              
           <hr>
          </div>
